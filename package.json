@@ -1,0 +1,19 @@
+{
+  "name": "arpspoof",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arpspoof.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "pcap": "^3.1.0"
+  }
+}
